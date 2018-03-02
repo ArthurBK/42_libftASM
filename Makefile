@@ -1,4 +1,4 @@
-NAME = libftasm.a
+NAME = libfts.a
 NASM = nasm
 NFLAGS = -f macho64 
 SRCS 	=	ft_islower.s\
