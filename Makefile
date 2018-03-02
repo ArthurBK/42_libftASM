@@ -53,6 +53,4 @@ fclean: clean
 
 re: fclean all
 
-asan: all
-
 .PHONY: re all clean fclean
