@@ -105,7 +105,7 @@ int main(void)
 	printf("ft_tolower('@'): %c\n", ft_tolower('@'));
 	printf("ft_tolower('['): %c\n\n", ft_tolower('[')); 
 	printf("ft_strcat(\"be\", \"au\")): %s\n", ft_strcat(s3, s4));
-	printf("\nft_putstr(\"yolo\\n\"): %i\n", ft_putstr("yolo"));
+	printf("\nft_putstr(\"yolo\"): %i\n", ft_putstr("yolo"));
 	printf("\nft_putchar('c'): %i\n", ft_putchar('c'));
 	printf("ft_puts(\"yolo\"): %i\n",	ft_puts("yolo"));
 	printf("ft_strlen(\"yolo\"): %i\n", ft_strlen("yolo"));
