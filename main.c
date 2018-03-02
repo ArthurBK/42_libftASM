@@ -62,10 +62,10 @@ int main(void)
 	s5[3] = 'o';
 	s5[4] = 0;
 
-	printf("ft_isalpha(128): %i\n", ft_isascii(128));
- 	printf("ft_isalpha(0): %i\n", ft_isascii(0));
- 	printf("ft_isalpha(127): %i\n", ft_isascii(127));
-	printf("ft_isalpha(-1): %i\n\n", ft_isascii(-1)); 
+	printf("ft_isascii(128): %i\n", ft_isascii(128));
+ 	printf("ft_isascii(0): %i\n", ft_isascii(0));
+ 	printf("ft_isascii(127): %i\n", ft_isascii(127));
+	printf("ft_isascii(-1): %i\n\n", ft_isascii(-1)); 
 	printf("ft_isdigit('0'): %i\n", ft_isdigit('0'));
 	printf("ft_isdigit('9'): %i\n", ft_isdigit('9'));
 	printf("ft_isdigit(47): %i\n", ft_isdigit(47));

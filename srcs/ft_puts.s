@@ -8,10 +8,9 @@ _ft_puts:
 		mov  rbp, rsp
 		push rdi
 		call _ft_putstr
-		push rax
 		mov rdi, 10
 		call _ft_putchar
-		pop rax
+		mov rax, 10
 		pop rdi
 		leave
 		ret

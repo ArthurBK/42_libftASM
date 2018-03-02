@@ -12,6 +12,7 @@ read:
 		mov  rax, 0x2000003
 		mov  rdx, 64
 		syscall
+		jc return
 		cmp rax, 0
 		jle return
 		jmp write
