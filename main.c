@@ -114,7 +114,8 @@ int main(void)
 	printf("ft_puts(NULL): ");
 	printf("\nft_memcpy(\"aaaao\", \"what\", 2): %s\n", ft_memcpy(s2, s1, 2));
 	printf("ft_strdup(\"yolo\"): %s\n", ft_strdup(s5));
-	printf("ft_bzero(\"yolo\"): %s\n", ft_bzero(s2, sizeof(s2)));
+	printf("ft_strdup(\"dup2\"): %s\n", "dup2");
+	printf("ft_bzero(\"yolo\")\n");
 	if (!(fd_char = open("test_putchar.c", O_RDWR | O_CREAT, 0666)))
 		return (1);
 	if (!(fd_str = open("test_str.c", O_RDWR | O_CREAT, 0666)))

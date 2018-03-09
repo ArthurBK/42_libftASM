@@ -18,9 +18,10 @@ _ft_strdup:
 		call _malloc
 		cmp  rax, 0
 		jz   return
-		mov  rdi, rax
+		mov  r13, rax
 		mov  rdi, r12
 		call _ft_strlen
+		mov  r13, rdi
 		mov  rdx, rax
 		mov  rsi, r12
 		call _ft_memcpy

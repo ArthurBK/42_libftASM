@@ -5,7 +5,7 @@ _ft_isprint:
 		push rbp
 		mov rbp, rsp
 		push rdi
-		cmp rdi, 33
+		cmp rdi, 32
 		jge lower_than_126
 		jmp return_false
 

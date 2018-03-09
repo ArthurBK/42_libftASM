@@ -12,7 +12,7 @@ read:
 		mov  rax, 0x2000003
 		mov  rdx, 64
 		syscall
-		jc return
+		jc error
 		cmp rax, 0
 		jle return
 		jmp write
@@ -30,3 +30,7 @@ return:
 		mov  rsp, rbp
 		pop rbp
 		ret
+
+error:
+		mov rax, 1	
+		jmp return
