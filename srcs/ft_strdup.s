@@ -15,15 +15,13 @@ _ft_strdup:
 		call _ft_strlen
 		mov  rdi, rax
 		add  rdi, 1
+		mov	 r13, rdi
 		call _malloc
 		cmp  rax, 0
 		jz   return
-		mov  r13, rax
-		mov  rdi, r12
-		call _ft_strlen
-		mov  r13, rdi
-		mov  rdx, rax
+		mov  rdi, rax
 		mov  rsi, r12
+		mov  rdx, r13
 		call _ft_memcpy
 		jmp  return
 
